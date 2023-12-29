@@ -12,10 +12,10 @@ variables:
   azureSubscription: '9fa1727e-d512-46c0-9ddd-aca40405cc55'
 
   # Web app name
-  webAppName: ''
+  webAppName: 'nodehello123yyy'
 
   # Environment name
-  environmentName: ''
+  environmentName: 'nodehello123yyy'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
@@ -32,7 +32,7 @@ stages:
     steps:
     - task: NodeTool@0
       inputs:
-        versionSpec: '10.x'
+        versionSpec: '16.x'
       displayName: 'Install Node.js'
 
     - script: |
